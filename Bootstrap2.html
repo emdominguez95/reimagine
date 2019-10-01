@@ -1,0 +1,142 @@
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="Bootstrap.css">
+    </head>
+    
+    <body>
+        <header>
+            <div class="jumbotron jumbotron-fluid" id="header">
+            <div class="container">
+                <h1 class="display-4" style="border-bottom: solid white 2px; padding-bottom: 5px;">My Favorite Video Games</h1>
+            </div>
+            </div>
+        </header>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Bootstrap.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Bootstrap3.html">Games</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="card-deck">
+        <div class="card" id="about">
+            <img class="card-img-top" src="Imgs/selfie.jpg" alt="Selfie">
+            <div class="card-body">
+                <h5 class="card-title">About Me</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Name: Elizabeth Dominguez</li>
+                    <li class="list-group-item">Age: 23</li>
+                    <li class="list-group-item">Interests: Video Games, Dogs</li>
+                    <li class="list-group-item"><strong>No, I did not make these games.</strong></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="col-sm-8 faq">
+        <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header">
+                <h5>Frequently Asked Questions</h5>
+            </div>
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What is this website?
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                This is a website I made to talk about my favorite video games. I have included a selection of 6 games, including well-known favorites, indie darlings, and games I used to love as a kid. There are so many more that I'd love to talk about, but that's not really the point of this exercise.
+            </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Why did you make it?
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                I made this website for my web design class. It's called Mobile and Cross Platform Web Design, and we're learning about Javascript and Bootstrap, which I'm having a lot of fun with. 
+            </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Are you a game designer?
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                No. Not yet, anyway. I want to be one in the future. I'm worried about a few things in the game development industry, though. For one thing, sexism is pervasive in the communities of people who play games, and I worry that it might also be common in the industries that create games. Another concern is that big companies are being exposed more and more for mistreating their workers, which is a problem I'm very familiar with as a food service worker. My biggest concern is that there will be a revolution before I finish school, and there will be no games industry after that. However, I am very much looking forward to the fall of capitalism in the US and I'm sure I will find a way to create the unique interactive experiences I love so much.
+            </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Did you make these games?
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body">
+                Nope!
+            </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        What's up with that picture of you?
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+            <div class="card-body">
+                One time I fell asleep on the roof of the building I lived in during the summer. Two hours with no water in 90 degree heat. I was so dehydrated I made myself actually physically ill for three days. It hurt to move every muscle in my body. I regret nothing.
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+        
+        <footer>
+            <div class="jumbotron jumbotron-fluid" id="footer">
+            <div class="container">
+                <h4>Made by Elizabeth Dominguez</h4>
+                <button type="button" class="btn btn-outline-light btn-sm"><a href="Bootstrap2.html">About</a></button>
+                <button type="button" class="btn btn-outline-light btn-sm"><a href="#">Contact</a></button>
+                <button type="button" class="btn btn-outline-light btn-sm"><a href="#">My Work</a></button>
+                <p id="copyright">Website built with Bootstrap. Images taken from the internet.</p>
+            </div>
+            </div>
+        </footer>
+    </body>
+    
+</html>

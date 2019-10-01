@@ -1,0 +1,67 @@
+/*General*/
+
+body{
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+
+#header{
+    background-image: url("Imgs/pacman.png");
+    background-color: black;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    background-color: white;
+    padding: 5px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer{
+    background-color:black;
+}
+
+#copyright{
+    font-size: 6pt;
+}
+
+/*Home (Bootstrap.html)*/
+
+#carousel{
+    width: 90%;
+    margin: 20px auto;
+}
+
+/*About (Bootstrap2.html)*/
+
+.card{
+    color: black;
+    display: block;
+}
+
+#about{
+    margin-top: 10px;
+}
+
+#faq{
+    margin-top: 10px;
+}
+
+/*Games (Bootstrap3.html)*/
+
+.game-card{
+    margin-left: 5px;
+}
+
+.game-card:hover{
+    background-color: gray;
+}
