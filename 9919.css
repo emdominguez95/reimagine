@@ -1,0 +1,27 @@
+/*#8BFE1D Tubthumper Green*/
+
+body{ 
+    background-color: #8BFE1D;
+    
+}
+
+header{
+    padding: 0;
+}
+
+#baby{
+    position:fixed;
+    right:5px;
+    bottom:5px;
+}
+
+.li.ul.nav{
+    background: #8BFE1D;
+    border: black 5px;
+    border-radius: 5px;
+    text-decoration:none;
+}
+
+.nav:hover{
+    background: white;
+}
